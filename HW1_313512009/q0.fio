@@ -1,8 +1,0 @@
-[global]
-filename=testfile
-bs=4k
-size=64m
-direct=1
-
-[job1]
-rw=read

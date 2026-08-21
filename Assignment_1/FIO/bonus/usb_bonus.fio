@@ -1,0 +1,13 @@
+[global]
+filename=/media/shihcw/KINGSTON/testfile_usb
+direct=1
+bs=4k
+size=64m
+ioengine=psync
+stonewall
+
+[read_usb]
+rw=read
+
+[randread_usb]
+rw=randread
